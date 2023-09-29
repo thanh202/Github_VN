@@ -15,4 +15,7 @@ Branch: cành (nhánh) -VD: nhánh master
 - git checkout : trở lại connet đầu tiên
 - git checkout {branch name}: quay lại connet vừa rồi
 - git branch : check nhánh
-- git branch -b {branch name} : tạo nhánh
+- git checkout -b {branch name} : tạo nhánh
+- git checkout master : quay lai nhanh master
+- git merge {branch name} : tông hợp nhánh lại vs nhau -VD: dev
+- git branch -d {branch name}: xoa 1 nhanh
